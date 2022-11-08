@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3326B5B0291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3326B5AF291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift */; };
 		33CCAB9D2918DBA5007EC4F3 /* TCAStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CCAB9C2918DBA5007EC4F3 /* TCAStudyApp.swift */; };
 		33CCAB9F2918DBA5007EC4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CCAB9E2918DBA5007EC4F3 /* ContentView.swift */; };
 		33CCABA12918DBA6007EC4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CCABA02918DBA6007EC4F3 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3326B5AF291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndConfirmationDialog.swift; sourceTree = "<group>"; };
 		33CCAB992918DBA5007EC4F3 /* TCAStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CCAB9C2918DBA5007EC4F3 /* TCAStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAStudyApp.swift; sourceTree = "<group>"; };
 		33CCAB9E2918DBA5007EC4F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				33CCAB9E2918DBA5007EC4F3 /* ContentView.swift */,
 				33CCABA02918DBA6007EC4F3 /* Assets.xcassets */,
 				33CCABA22918DBA6007EC4F3 /* Preview Content */,
+				3326B5AF291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift */,
 			);
 			path = TCAStudy;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CCAB9F2918DBA5007EC4F3 /* ContentView.swift in Sources */,
+				3326B5B0291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift in Sources */,
 				33CCAB9D2918DBA5007EC4F3 /* TCAStudyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
