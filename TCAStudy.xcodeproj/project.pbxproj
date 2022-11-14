@@ -54,6 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		333C35542921E14B0006BCB6 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				3326B5AF291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift */,
+				3326B5B1291A29B2006BF3CC /* BindingBasicsView.swift */,
+				335EA9B9291BAB4F0077D0E0 /* CounterDemoView.swift */,
+				335EA9BB291CB7570077D0E0 /* FocusDemoView.swift */,
+				335EA9C3291CE3120077D0E0 /* AnimationsView.swift */,
+				335EA9C5291CE6B90077D0E0 /* BindingFormView.swift */,
+				335EA9C7291E5BA70077D0E0 /* TwoCountersView.swift */,
+				335EA9C9291F85ED0077D0E0 /* OptionalBasicsView.swift */,
+				3310D8332920F36C00B2E996 /* SharedStateView.swift */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
 		33CCAB902918DBA5007EC4F3 = {
 			isa = PBXGroup;
 			children = (
@@ -73,19 +89,11 @@
 		33CCAB9B2918DBA5007EC4F3 /* TCAStudy */ = {
 			isa = PBXGroup;
 			children = (
+				333C35542921E14B0006BCB6 /* examples */,
 				33CCAB9C2918DBA5007EC4F3 /* TCAStudyApp.swift */,
 				33CCAB9E2918DBA5007EC4F3 /* ContentView.swift */,
 				33CCABA02918DBA6007EC4F3 /* Assets.xcassets */,
 				33CCABA22918DBA6007EC4F3 /* Preview Content */,
-				3326B5AF291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift */,
-				3326B5B1291A29B2006BF3CC /* BindingBasicsView.swift */,
-				335EA9B9291BAB4F0077D0E0 /* CounterDemoView.swift */,
-				335EA9BB291CB7570077D0E0 /* FocusDemoView.swift */,
-				335EA9C3291CE3120077D0E0 /* AnimationsView.swift */,
-				335EA9C5291CE6B90077D0E0 /* BindingFormView.swift */,
-				335EA9C7291E5BA70077D0E0 /* TwoCountersView.swift */,
-				335EA9C9291F85ED0077D0E0 /* OptionalBasicsView.swift */,
-				3310D8332920F36C00B2E996 /* SharedStateView.swift */,
 			);
 			path = TCAStudy;
 			sourceTree = "<group>";
