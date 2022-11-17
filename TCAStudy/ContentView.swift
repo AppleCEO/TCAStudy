@@ -10,11 +10,17 @@ import ComposableArchitecture
 
 struct ContentView: View {
     var body: some View {
-        FeatureView(
-          store: Store(
-            initialState: Feature.State(),
-            reducer: Feature()
-          )
+//        FeatureView(
+//          store: Store(
+//            initialState: Feature.State(),
+//            reducer: Feature()
+//          )
+//        )
+        LongLivingEffectsView(
+            store: Store(
+                initialState: LongLivingEffects.State(),
+                reducer: LongLivingEffects()
+            )
         )
     }
 }

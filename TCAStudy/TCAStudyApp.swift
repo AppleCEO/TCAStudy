@@ -12,12 +12,13 @@ import ComposableArchitecture
 struct TCAStudyApp: App {
     var body: some Scene {
         WindowGroup {
-          FeatureView(
-            store: Store(
-              initialState: Feature.State(),
-              reducer: Feature()
-            )
-          )
+//          FeatureView(
+//            store: Store(
+//              initialState: Feature.State(),
+//              reducer: Feature()
+//            )
+//          )
+            ContentView()
         }
     }
 }
