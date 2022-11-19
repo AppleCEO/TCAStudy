@@ -25,6 +25,7 @@
 		33CCABAE2918DBEE007EC4F3 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 33CCABAD2918DBEE007EC4F3 /* Dependencies */; };
 		33FF95B72926061600539377 /* LongLivingEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF95B62926061600539377 /* LongLivingEffectsView.swift */; };
 		33FF95B929289CB600539377 /* RefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF95B829289CB600539377 /* RefreshableView.swift */; };
+		33FF95BD29289E4000539377 /* TimersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF95BC29289E4000539377 /* TimersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		33CCABA32918DBA6007EC4F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33FF95B62926061600539377 /* LongLivingEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongLivingEffectsView.swift; sourceTree = "<group>"; };
 		33FF95B829289CB600539377 /* RefreshableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshableView.swift; sourceTree = "<group>"; };
+		33FF95BC29289E4000539377 /* TimersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				3310D8332920F36C00B2E996 /* SharedStateView.swift */,
 				33FF95B62926061600539377 /* LongLivingEffectsView.swift */,
 				33FF95B829289CB600539377 /* RefreshableView.swift */,
+				33FF95BC29289E4000539377 /* TimersView.swift */,
 			);
 			path = examples;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				3326B5B0291A0F8D006BF3CC /* AlertAndConfirmationDialog.swift in Sources */,
 				33CCAB9D2918DBA5007EC4F3 /* TCAStudyApp.swift in Sources */,
 				33FF95B72926061600539377 /* LongLivingEffectsView.swift in Sources */,
+				33FF95BD29289E4000539377 /* TimersView.swift in Sources */,
 				3310D8342920F36C00B2E996 /* SharedStateView.swift in Sources */,
 				335EA9C8291E5BA70077D0E0 /* TwoCountersView.swift in Sources */,
 				333C35572921E1E10006BCB6 /* DominicCounterView.swift in Sources */,
