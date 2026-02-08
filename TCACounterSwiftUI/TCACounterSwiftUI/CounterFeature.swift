@@ -9,11 +9,15 @@ import ComposableArchitecture
 import Foundation
 
 struct CounterFeature: Reducer {
+    @Dependency(\.continuousClock) var clock
+    
+    
     @ObservableState
     struct State: Equatable {
         var count = 0
         var fact: String?
         var isLoading = false
+        var isTimerRunning = false
     }
     
     enum Action: Equatable {
@@ -21,12 +25,15 @@ struct CounterFeature: Reducer {
         case factButtonTapped
         case factResponse(String)
         case incrementButtonTapped
+        case timerTick
+        case toggleTimerButtonTapped
     }
     
     func reduce(into state: inout State, action: Action) -> Effect<Action> {
         switch action {
         case .decrementButtonTapped:
             state.count -= 1
+            state.fact = nil
             return .none
             
         case .factButtonTapped:
@@ -47,8 +54,26 @@ struct CounterFeature: Reducer {
             
         case .incrementButtonTapped:
             state.count += 1
+            state.fact = nil
             return .none
+            
+        case .timerTick:
+            state.count += 1
+            state.fact = nil
+            return .none
+            
+        case .toggleTimerButtonTapped:
+            state.isTimerRunning.toggle()
+            if state.isTimerRunning {
+                return .run { send in
+                    for await _ in self.clock.timer(interval: .seconds(1)) {
+                        await send(.timerTick)
+                    }
+                }
+                .cancellable(id: 0)
+            } else {
+                return .cancel(id: 0)
+            }
         }
     }
 }
-
