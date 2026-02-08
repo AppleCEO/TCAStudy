@@ -47,7 +47,7 @@ struct CounterView: View {
                 ProgressView()
             } else if let fact = store.fact {
                 Text(fact)
-                    .fact(.largeTitle)
+                    .font(.largeTitle)
                     .multilineTextAlignment(.center)
                     .padding()
             }
