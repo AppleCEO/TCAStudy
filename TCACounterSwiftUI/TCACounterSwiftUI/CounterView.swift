@@ -63,5 +63,5 @@ struct CounterView: View {
 }
 
 #Preview {
-    CounterView(store: TCACounterSwiftUIApp.store)
+    CounterView(store: TCACounterSwiftUIApp.store1)
 }
